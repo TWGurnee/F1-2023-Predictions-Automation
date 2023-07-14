@@ -17,6 +17,8 @@ This repository contains the code and resources for automating F1 2023 predictio
 
 The F1 2023 Predictions Automation project allows you to predict the results for the Formula 1 season 2023. This links to a Google Spreadsheet which would allow you to place your predicted order for the season in, and compare your results to your friends.
 
+Please see the example spreadsheet here: ![Spreadsheet](https://github.com/TWGurnee/F1-2023-Predictions-Automation/images/Example Spreadsheet.png)
+
 ## Features
 
 - Automated update of reace results
