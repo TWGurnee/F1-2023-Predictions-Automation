@@ -19,7 +19,7 @@ The F1 2023 Predictions Automation project allows you to predict the results for
 
 Please see the example spreadsheet here: ![Spreadsheet](https://github.com/TWGurnee/F1-2023-Predictions-Automation/tree/main/images/ExampleSpreadsheet.PNG)
 
-You can copy the following sheet as a ![guide](https://docs.google.com/spreadsheets/d/1p8GQ2nwEi3bZgPkjeI3zrp1gZmvUzEkayBRoUny98pQ/edit#gid=0)
+You can copy the following sheet as a ![guide](https://docs.google.com/spreadsheets/d/1p8GQ2nwEi3bZgPkjeI3zrp1gZmvUzEkayBRoUny98pQ/)
 
 Please note: to set this up for your own spreadsheet, you must set up access for google sheets to be updated by a python script. You will need to add a creds.json to the secrets folder.
 Useful tutorials can be found ![here](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/) or ![here](https://medium.com/daily-python/python-script-to-edit-google-sheets-daily-python-7-aadce27846c0)
