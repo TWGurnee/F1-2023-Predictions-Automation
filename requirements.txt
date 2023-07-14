@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.2
+gspread==5.2.0
+gspread_dataframe==3.2.2
+pandas==1.3.4
+protobuf==3.19.4
+schedule==1.1.0
