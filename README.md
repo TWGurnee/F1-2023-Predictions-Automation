@@ -1,6 +1,6 @@
 # F1 2023 Predictions Automation
 
-![F1 2023 Predictions Automation](https://github.com/TWGurnee/F1-2023-Predictions-Automation)
+[F1 2023 Predictions Automation](https://github.com/TWGurnee/F1-2023-Predictions-Automation)
 
 This repository contains the code and resources for automating F1 2023 predictions.
 
