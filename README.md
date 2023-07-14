@@ -19,6 +19,8 @@ The F1 2023 Predictions Automation project allows you to predict the results for
 
 Please see the example spreadsheet here: ![Spreadsheet](https://github.com/TWGurnee/F1-2023-Predictions-Automation/tree/main/images/ExampleSpreadsheet.PNG)
 
+Please note: to set this up for your own spreadsheet, you must set up access for google sheets to be updated by a python script. You will need to add a creds.json to the 
+
 ## Features
 
 - Automated update of reace results
@@ -42,9 +44,15 @@ To use this project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Set up a google sheet, and the google sheet credentials in src/secrets
+3. Set up a google sheet, and add the google sheet credentials (cred.json) in src/secrets.
 
-4. Run the application:
+4. Add the google sheet key as an ss_key.py file.
+
+   ```python
+   sskey = "" # enter the google sheet key here so your script can access the sheet.
+   ```
+
+5. Run the application:
 
    ```bash
    python weekly_update.py
