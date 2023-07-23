@@ -15,7 +15,7 @@ from secrets2.ss_key import sskey
 
 ###  Authorisation ###
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-CREDS = os.path.join(ROOT_DIR, r"secrets/creds.json")
+CREDS = os.path.join(ROOT_DIR, r"secrets2/creds.json")
 
 # Load Google API Credentials
 with open(CREDS) as source:
