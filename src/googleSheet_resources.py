@@ -125,7 +125,7 @@ def update_prediction_scores():
         predictions, header=1, usecols=[13, 14], nrows=20
     )
     team_standings = get_as_dataframe(
-        predictions, header=22, usecols=[13, 14], nrows=10
+        predictions, header=23, usecols=[13, 14], nrows=10
     )
 
     # get current standings
@@ -360,6 +360,9 @@ def update_wildcards():
     set_with_dataframe(predictions, wildcard_scores, row=33, col=1)
     print(wildcard_scores)
     print("Wildcards updated")
+    current_date = datetime.now()
+    current_date_string = current_date.strftime("%Y-%m-%d")
+    predictions.update('B1', current_date_string)
     
 
 if __name__ == "__main__":

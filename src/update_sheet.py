@@ -28,5 +28,5 @@ if __name__ == "__main__":
     update_prediction_scores()
     
     endtime = time.time()
-    
+       
     print(f"total time taken: {endtime-starttime}s")
