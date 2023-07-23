@@ -1,1 +1,1 @@
-from .secrets.ss_key import sskey
+from .secrets2.ss_key import sskey

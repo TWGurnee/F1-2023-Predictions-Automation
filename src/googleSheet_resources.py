@@ -8,8 +8,9 @@ from gspread_dataframe import set_with_dataframe, get_as_dataframe
 import json
 from google.oauth2 import service_account
 import os
+from datetime import datetime
 
-from secrets.ss_key import sskey
+from secrets2.ss_key import sskey
 #######################################################################################################################################################################################
 
 ###  Authorisation ###
@@ -112,7 +113,7 @@ def update_team_standings():
     df.drop(["Unnamed: 0", "Unnamed: 4", "Pos"], axis=1, inplace=True)
 
     # set onto gs
-    set_with_dataframe(predictions, df, row=23, col=14)
+    set_with_dataframe(predictions, df, row=24, col=14)
     print("team standings updated\n")
 
 
@@ -375,6 +376,10 @@ if __name__ == "__main__":
         u.join()
     
     update_prediction_scores()
+    current_date = datetime.now()
+    current_date_string = current_date.strftime("%Y-%m-%d")
+    predictions.update('B1', current_date_string)
+    
     
 
 
