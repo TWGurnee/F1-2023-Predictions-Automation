@@ -1,6 +1,6 @@
 # F1 2023 Predictions Automation
 
-![F1 2023 Predictions Automation](https://github.com/TWGurnee/F1-2023-Predictions-Automation)
+[F1 2023 Predictions Automation](https://github.com/TWGurnee/F1-2023-Predictions-Automation)
 
 This repository contains the code and resources for automating F1 2023 predictions.
 
@@ -17,7 +17,15 @@ This repository contains the code and resources for automating F1 2023 predictio
 
 The F1 2023 Predictions Automation project allows you to predict the results for the Formula 1 season 2023. This links to a Google Spreadsheet which would allow you to place your predicted order for the season in, and compare your results to your friends.
 
-Please see the example spreadsheet here: ![Spreadsheet](https://github.com/TWGurnee/F1-2023-Predictions-Automation/images/ExampleSpreadsheet.png)
+Currently the sheet and code is set up for personal use, for predictions between myself and 2 friends. To add more friends you would have to update the code in quite a few places to ensure the sheet is updated correctly.
+
+Please see the example spreadsheet here: ![Spreadsheet](https://github.com/TWGurnee/F1-2023-Predictions-Automation/tree/main/images/ExampleSpreadsheet.PNG)
+
+You can copy the following sheet as a [guide](https://docs.google.com/spreadsheets/d/1p8GQ2nwEi3bZgPkjeI3zrp1gZmvUzEkayBRoUny98pQ/).
+
+Please note: to set this up for your own spreadsheet, you must set up access for google sheets to be updated by a python script. You will need to add a creds.json to the secrets folder.
+Useful tutorials can be found [here](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/) or [here](https://medium.com/daily-python/python-script-to-edit-google-sheets-daily-python-7-aadce27846c0).
+
 
 ## Features
 
@@ -42,9 +50,15 @@ To use this project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Set up a google sheet, and the google sheet credentials in src/secrets
+3. Set up a google sheet, and add the google sheet credentials (cred.json) in src/secrets.
 
-4. Run the application:
+4. Add the google sheet key as an ss_key.py file.
+   for example:
+   ```python
+   sskey = "1p8GQ2nwEi3bZgPkjeI3zrp1gZmvUzEkayBRoUny98pQ" # enter the google sheet key here so your script can access the sheet.
+   ```
+
+5. Run the application:
 
    ```bash
    python weekly_update.py
