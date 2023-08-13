@@ -201,7 +201,7 @@ def update_wildcards():
         df.drop(["Unnamed: 0", "Unnamed: 5", "Time", "Car"], axis=1, inplace=True)
         
         # Build FL count table
-        driver_fl_count = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:20], ([0]*20))}
+        driver_fl_count = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:21], ([0]*21))}
         
         # Update FL count
         for name in df["Driver"]:
@@ -225,8 +225,8 @@ def update_wildcards():
         
         print("Updating podiums and DNFs...")
         
-        driver_DNF_count = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:20], ([0]*20))}
-        driver_podium_count  = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:20], ([0]*20))}
+        driver_DNF_count = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:21], ([0]*21))}
+        driver_podium_count  = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:21], ([0]*21))}
         
         def update_podium_and_dnf_counters(link, driver_DNF_count, driver_podium_count):
                 try:
@@ -292,7 +292,7 @@ def update_wildcards():
         
         print("Updating poles...")
 
-        driver_pole_count  = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:20], ([0]*20))}
+        driver_pole_count  = {driver: count for driver, count in zip(list(NAME_CONVERSION.values())[:21], ([0]*21))}
         
         
         def update_pole_counter(link, driver_pole_count):
