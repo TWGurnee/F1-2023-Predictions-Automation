@@ -1,0 +1,177 @@
+[
+  {
+    "name": "australia",
+    "date": "14 - 16 Mar",
+    "time": "2025-03-16 04:00:00",
+    "raceweek": 1,
+    "results": "https://www.formula1.com/en/results/2025/races/1254/australia/race-result"
+  },
+  {
+    "name": "china",
+    "date": "21   - 23 Mar",
+    "time": "2025-03-23 07:00:00",
+    "raceweek": 2,
+    "results": "https://www.formula1.com/en/results/2025/races/1255/china/race-result"
+  },
+  {
+    "name": "japan",
+    "date": "04   - 06 Apr",
+    "time": "2025-04-06 05:00:00",
+    "raceweek": 3,
+    "results": "https://www.formula1.com/en/results/2025/races/1256/japan/race-result"
+  },
+  {
+    "name": "bahrain",
+    "date": "11   - 13 Apr",
+    "time": "2025-04-13 15:00:00",
+    "raceweek": 4,
+    "results": "https://www.formula1.com/en/results/2025/races/1257/bahrain/race-result"
+  },
+  {
+    "name": "saudi-arabia",
+    "date": "18   - 20 Apr",
+    "time": "2025-04-20 17:00:00",
+    "raceweek": 5,
+    "results": "https://www.formula1.com/en/results/2025/races/1258/saudi-arabia/race-result"
+  },
+  {
+    "name": "miami",
+    "date": "02   - 04 May",
+    "time": "2025-05-04 20:00:00",
+    "raceweek": 6,
+    "results": "https://www.formula1.com/en/results/2025/races/1259/miami/race-result"
+  },
+  {
+    "name": "emiliaromagna",
+    "date": "16   - 18 May",
+    "time": "2025-05-18 13:00:00",
+    "raceweek": 7,
+    "results": "https://www.formula1.com/en/results/2025/races/1260/emilia-romagna/race-result"
+  },
+  {
+    "name": "monaco",
+    "date": "23   - 25 May",
+    "time": "2025-05-25 13:00:00",
+    "raceweek": 8,
+    "results": "https://www.formula1.com/en/results/2025/races/1261/monaco/race-result"
+  },
+  {
+    "name": "spain",
+    "date": "30 May  - 01 Jun",
+    "time": "2025-06-01 13:00:00",
+    "raceweek": 9,
+    "results": "https://www.formula1.com/en/results/2025/races/1262/spain/race-result"
+  },
+  {
+    "name": "canada",
+    "date": "13   - 15 Jun",
+    "time": "2025-06-15 18:00:00",
+    "raceweek": 10,
+    "results": "https://www.formula1.com/en/results/2025/races/1263/canada/race-result"
+  },
+  {
+    "name": "austria",
+    "date": "27   - 29 Jun",
+    "time": "2025-06-29 13:00:00",
+    "raceweek": 11,
+    "results": "https://www.formula1.com/en/results/2025/races/1264/austria/race-result"
+  },
+  {
+    "name": "great-britain",
+    "date": "04   - 06 Jul",
+    "time": "2025-07-06 14:00:00",
+    "raceweek": 12,
+    "results": "https://www.formula1.com/en/results/2025/races/1277/great-britain/race-result"
+  },
+  {
+    "name": "belgium",
+    "date": "25   - 27 Jul",
+    "time": "2025-07-27 13:00:00",
+    "raceweek": 13,
+    "results": "https://www.formula1.com/en/results/2025/races/1265/belgium/race-result"
+  },
+  {
+    "name": "hungary",
+    "date": "01   - 03 Aug",
+    "time": "2025-08-03 13:00:00",
+    "raceweek": 14,
+    "results": "https://www.formula1.com/en/results/2025/races/1266/hungary/race-result"
+  },
+  {
+    "name": "netherlands",
+    "date": "29   - 31 Aug",
+    "time": "2025-08-31 13:00:00",
+    "raceweek": 15,
+    "results": "https://www.formula1.com/en/results/2025/races/1267/netherlands/race-result"
+  },
+  {
+    "name": "italy",
+    "date": "05   - 07 Sep",
+    "time": "2025-09-07 13:00:00",
+    "raceweek": 16,
+    "results": "https://www.formula1.com/en/results/2025/races/1268/italy/race-result"
+  },
+  {
+    "name": "azerbaijan",
+    "date": "19   - 21 Sep",
+    "time": "2025-09-21 11:00:00",
+    "raceweek": 17,
+    "results": "https://www.formula1.com/en/results/2025/races/1269/azerbaijan/race-result"
+  },
+  {
+    "name": "singapore",
+    "date": "03   - 05 Oct",
+    "time": "2025-10-05 12:00:00",
+    "raceweek": 18,
+    "results": "https://www.formula1.com/en/results/2025/races/1270/singapore/race-result"
+  },
+  {
+    "name": "united-states",
+    "date": "17   - 19 Oct",
+    "time": "2025-10-19 19:00:00",
+    "raceweek": 19,
+    "results": "https://www.formula1.com/en/results/2025/races/1271/united-states/race-result"
+  },
+  {
+    "name": "mexico",
+    "date": "24   - 26 Oct",
+    "time": "2025-10-26 20:00:00",
+    "raceweek": 20,
+    "results": "https://www.formula1.com/en/results/2025/races/1272/mexico/race-result"
+  },
+  {
+    "name": "brazil",
+    "date": "07   - 09 Nov",
+    "time": "2025-11-09 17:00:00",
+    "raceweek": 21,
+    "results": "https://www.formula1.com/en/results/2025/races/1273/brazil/race-result"
+  },
+  {
+    "name": "las-vegas",
+    "date": "20   - 22 Nov",
+    "time": "2025-11-22 04:00:00",
+    "raceweek": 22,
+    "results": "https://www.formula1.com/en/results/2025/races/1274/las-vegas/race-result"
+  },
+  {
+    "name": "qatar",
+    "date": "28   - 30 Nov",
+    "time": "2025-11-30 16:00:00",
+    "raceweek": 23,
+    "results": "https://www.formula1.com/en/results/2025/races/1275/qatar/race-result"
+  },
+  {
+    "name": "united-arab-emirates",
+    "date": "05   - 07 Dec",
+    "time": "2025-12-07 13:00:00",
+    "raceweek": 24,
+    "results": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/race-result"
+  },
+  {
+    "name": "/en/racing/2024",
+    "date": "N/A",
+    "time": "N/A",
+    "raceweek": 25,
+    "results": "https://www.formula1.com/en/results/2025/races/1254/australia/race-result"
+  }
+]
