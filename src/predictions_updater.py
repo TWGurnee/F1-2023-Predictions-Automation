@@ -113,7 +113,6 @@ def update_fastest_laps_scores(sheet) -> Tuple[int, pd.DataFrame]:
         logger.warning("Fastest laps data unavailable.")
         return FLS.wildcard_index, pd.DataFrame() #type: ignore Constant ensures type safe
     
-    # this is adding to empty count. instead we grab from table and add to it? can test to see what's faster
     for name in df["Driver"]:
         key = NAME_CONVERSION.get(str(name[-3:]))
         if key:
